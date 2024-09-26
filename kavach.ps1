@@ -19,5 +19,5 @@ Remove-Item -Path "HKLM:\SOFTWARE\WOW6432Node\KVHome" -Force
 Stop-Process -Name "kavkrn" -Force
 Stop-Process -Name "kavgui" -Force
 
-# Exit PowerShell
+# Exit PowerShell exe
 exit
